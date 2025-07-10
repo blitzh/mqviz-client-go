@@ -1,0 +1,66 @@
+# Binaries & build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+
+# Go build cache
+/build/
+/bin/
+/dist/
+*.log
+
+# Dependency directories (vendor, mod cache)
+vendor/
+go.sum
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Web frontend (if you build dashboard)
+webui/node_modules/
+webui/.vite/
+webui/.next/
+webui/dist/
+webui/build/
+webui/.env
+webui/.env.*
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+
+# Config examples (keep templates only)
+config/*.local.yaml
+config/*.secret.yaml
+*.sqlite
+*.db
+
+# Git hooks or git-crypt (optional)
+.git/hooks/
+.git-crypt
+
+# Coverage/test
+coverage.*
+*.coverprofile
+*.testlog
+
+# Optional: Ignore specific examples if not to be committed
+examples/*/output/
+examples/*/temp/
+
+# vendor
+vendor/
